@@ -2,3 +2,25 @@
   background-color: #ffc0ed;
   border: 1px solid black;
 }
+
+.footer {
+  background-color: #FFF0FB;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+    
+}
+
+.sub {
+  background-color: #ffc0ed;
+
+}
+
+.subscrib {
+  background-color: #0026ad;
+  padding: 10px 15px;
+  border-radius: 30px;
+  border: solid #0026ad;
+  color: #ffc0ed;
+}
+
