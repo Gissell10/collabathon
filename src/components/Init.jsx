@@ -4,12 +4,14 @@ const Init = () => {
   return (
     <div>
       <div className="bar">
-        <p>Celebrity News</p>
-        <p>Toilet</p>
-        <div className="white-bar"></div>
-        <p>Recipes</p>
+        <li>Trending News</li>
+        <li>Secret Toilet</li>
+        <li>Nasty Fab</li>
+        <li>Hood ups</li>
+        <li>More</li>
       </div>
-      <div></div>
+      <div className="Img"></div>
+
       <button>Juicy Hell</button>
     </div>
   );
