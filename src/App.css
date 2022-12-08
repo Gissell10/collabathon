@@ -60,3 +60,6 @@ ul {
   font-size: 1.5rem;
   font-weight: 600;
 }
+.description {
+  background-color: rgba(238, 66, 169, 0.012);
+}
