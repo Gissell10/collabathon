@@ -3,9 +3,14 @@ import React from "react";
 const Nav = () => {
   return (
     <div className="Nav">
-      <div className="hamburger"></div>
-      <div className="hamburger"></div>
-      <div className="hamburger"></div>
+      <div>
+        <img src="public/hamburger-menu.png" alt="" />
+      </div>
+      <h1>
+        GIVE ME <br /> THE TEA
+      </h1>
+      <button>SUSCRIBE</button>
+      <div className="user"> </div>
     </div>
   );
 };

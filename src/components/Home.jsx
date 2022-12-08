@@ -10,10 +10,13 @@ const Home = () => {
   return (
     <main>
       <Nav></Nav>
-      <Footer></Footer>
+
       <Init></Init>
       <Articles></Articles>
+      <Articles></Articles>
+      <Articles></Articles>
       <Subscribe></Subscribe>
+      <Footer></Footer>
     </main>
   );
 };

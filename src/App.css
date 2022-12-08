@@ -1,14 +1,4 @@
 .Nav {
   background-color: #ffc0ed;
   border: 1px solid black;
-  width: 1000px;
-  height: 100px;
-}
-.hamburger {
-  position: absolute;
-  left: 2.56%;
-  right: 90.26%;
-  top: 1.1%;
-  bottom: 97.15%;
-  border: 1.5px solid #404040;
 }
