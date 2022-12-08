@@ -1,9 +1,43 @@
-.Nav {
-  background-color: #ffc0ed;
+@import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,700;6..96,800&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  color: #0026ad;
+  font-family: Bodoni + Moda;
 }
 
+ul {
+  list-style: none;
+}
+
+.Nav {
+  background-color: #ffc0ed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.btn-suscribe {
+  background-color: #ffc0ed;
+  padding: 10px 15px;
+  border-radius: 30px;
+  border: solid #0026ad;
+  color: #0026ad;
+}
+.btn-secret {
+  background-color: #0026ad;
+  padding: 10px 15px;
+  border-radius: 30px;
+  border: solid #0026ad;
+  color: #ffc0ed;
+}
 .bar {
   background-color: #e8bedc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .white-bar {
   background-color: white;

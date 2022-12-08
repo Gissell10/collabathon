@@ -3,14 +3,26 @@ import { Icon } from "@iconify/react";
 
 const Nav = () => {
   return (
-    <div className="Nav">
-      <h1>
-        GIVE ME <br /> THE TEA
-      </h1>
-      <button>SUSCRIBE</button>
-      <p>My Account</p>
+    <div>
+      <div className="Nav">
+        <h1>
+          GIVE ME <br /> THE TEA
+        </h1>
+        <button className="btn-suscribe">SUSCRIBE</button>
+        <p>My Account</p>
+        <div>
+          <Icon icon="icon-park:hamburger-button" />
+        </div>
+      </div>
+
       <div>
-        <Icon icon="icon-park:hamburger-button" />
+        <ul className="bar">
+          <li>Trending News</li>
+          <li className="btn-secret">Secret Toilet</li>
+          <li>Nasty Fab</li>
+          <li>Hood ups</li>
+          <li>More</li>
+        </ul>
       </div>
     </div>
   );
