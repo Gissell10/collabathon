@@ -1,10 +1,12 @@
 import React from "react";
 import { Icon } from '@iconify/react';
+import "../App.css";
+
 
 const Subscribe = () => {
 
     return (
-        <div>
+        <div className="sub">
             <div className="subscribeword">
                 Do you want more juicy tea?<br />
             
