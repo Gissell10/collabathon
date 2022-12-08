@@ -1,0 +1,14 @@
+.container-dash {
+  margin: 50px auto;
+  background-color: #ffc0ed;
+  width: 342px;
+  height: 636;
+  padding: 15px;
+  border-radius: 17px;
+}
+
+.single-user {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

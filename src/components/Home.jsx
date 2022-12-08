@@ -1,7 +1,7 @@
 import React from "react";
 import Nav from "./Nav";
 import Footer from "./Footer";
-import Init from "./Init";
+import Hero from "./Hero";
 import Subscribe from "./Subscribe";
 import Articles from "./Articles";
 import "../App.css";
@@ -11,10 +11,9 @@ const Home = () => {
     <main>
       <Nav></Nav>
 
-      <Init></Init>
+      <Hero></Hero>
       <Articles></Articles>
-      <Articles></Articles>
-      <Articles></Articles>
+
       <Subscribe></Subscribe>
       <Footer></Footer>
     </main>
