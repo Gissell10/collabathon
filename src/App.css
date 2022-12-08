@@ -2,3 +2,12 @@
   background-color: #ffc0ed;
   border: 1px solid black;
 }
+
+.bar {
+  background-color: #e8bedc;
+}
+.white-bar {
+  background-color: white;
+  max-width: 390px;
+  height: 60px;
+}
