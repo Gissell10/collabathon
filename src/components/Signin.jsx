@@ -1,8 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 import { Icon } from "@iconify/react";
 import "../Signup.css";
 
 const Signin = () => {
+  const [firstName, setFirstName] = useState("");
+  const [lastName, setLastName] = useState("");
+  const [email, setEmail] = useState("");
+
+  const _handleSumbit = (e) => {
+    e.preventDefault();
+    console.log(firstName, lastName, email);
+  };
+
   return (
     <div className="container">
       <p className="cross-icon">
@@ -40,30 +49,50 @@ const Signin = () => {
         </span>
         Unlimited Access to top secret tea
       </p>
-      <h3>Have More Tea!</h3>
-      <ul>
-        <li>
-          <input type="email" placeholder="Email" className="email" />
-        </li>
-        <li>
-          <input type="text" placeholder="First Name" className="first-name" />
-          <input type="text" placeholder="Last Name" className="last-name" />
-        </li>
-      </ul>
+      <form onSubmit={_handleSumbit}>
+        <h3>Have More Tea!</h3>
+        <ul>
+          <li>
+            <input
+              onChange={(e) => setEmail(e.target.value)}
+              type="email"
+              placeholder="Email"
+              className="email"
+              required
+            />
+          </li>
+          <li>
+            <input
+              onChange={(e) => setFirstName(e.target.value)}
+              type="text"
+              placeholder="First Name"
+              className="first-name"
+              required
+            />
+            <input
+              onChange={(e) => setLastName(e.target.value)}
+              type="text"
+              placeholder="Last Name"
+              className="last-name"
+              required
+            />
+          </li>
+        </ul>
 
-      <p className="disclaimer">
-        Your information is used to personalize our monthly newsletter to you.
-        You can use the unsubscribe link integrated in the newsletter at any
-        time.
-        <a className="disclaimer link" href="#">
-          Learn more about managing your data and your rights.
-        </a>
-      </p>
-      <div className="submit-button">
-        <button className="submit" type="submit">
-          I Want More TEA
-        </button>
-      </div>
+        <p className="disclaimer">
+          Your information is used to personalize our monthly newsletter to you.
+          You can use the unsubscribe link integrated in the newsletter at any
+          time.
+          <a className="disclaimer link" href="#">
+            Learn more about managing your data and your rights.
+          </a>
+        </p>
+        <div className="submit-button">
+          <button className="submit" type="submit">
+            I Want More TEA
+          </button>
+        </div>
+      </form>
 
       <p className="close">
         <a href="#">No Thanks</a>
