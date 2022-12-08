@@ -39,13 +39,22 @@ ul {
   justify-content: space-between;
   align-items: center;
 }
-.white-bar {
-  background-color: white;
-  max-width: 390px;
-  height: 60px;
+
+.Articles {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
-.Img {
-  min-width: 390px;
-  height: 250px;
-  background: gray;
+.hero-title {
+  background-color: rgba(255, 228, 247, 0.5);
+  padding: 50px;
+  border-radius: 96px;
+  font-size: 2rem;
+}
+.Articles-button {
+  background-color: #0026ad;
+  color: #fff0fb;
+  padding: 5px 15px;
+  border-radius: 40%;
+  font-size: 1.5rem;
+  font-weight: 600;
 }
