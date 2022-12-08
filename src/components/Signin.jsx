@@ -1,15 +1,30 @@
 import React, { useState } from "react";
 import { Icon } from "@iconify/react";
 import "../Signup.css";
+import { db } from "../firebase-config";
+import { collection, addDoc } from "firebase/firestore";
 
 const Signin = () => {
   const [firstName, setFirstName] = useState("");
   const [lastName, setLastName] = useState("");
   const [email, setEmail] = useState("");
 
+  const addToMailingList = async function () {
+    try {
+      await addDoc(collection(db, "users"), {
+        email: email,
+        firstname: firstName,
+        lastName: lastName,
+      });
+    } catch (err) {
+      console.log(err);
+    }
+  };
+
   const _handleSumbit = (e) => {
     e.preventDefault();
     console.log(firstName, lastName, email);
+    addToMailingList();
   };
 
   return (
