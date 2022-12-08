@@ -13,8 +13,7 @@ const Home = () => {
 
       <Init></Init>
       <Articles></Articles>
-      <Articles></Articles>
-      <Articles></Articles>
+
       <Subscribe></Subscribe>
       <Footer></Footer>
     </main>

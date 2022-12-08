@@ -1,6 +1,5 @@
 .Nav {
   background-color: #ffc0ed;
-  border: 1px solid black;
 }
 
 .bar {
@@ -10,4 +9,9 @@
   background-color: white;
   max-width: 390px;
   height: 60px;
+}
+.Img {
+  min-width: 390px;
+  height: 250px;
+  background: gray;
 }
