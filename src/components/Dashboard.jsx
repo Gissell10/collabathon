@@ -12,7 +12,6 @@ const Dashboard = () => {
       const userArray = [];
 
       userDocs.forEach((doc) => {
-        // doc.data() is never undefined for query doc snapshots
         userArray.push(doc.data());
       });
       setUsers([...userArray]);
