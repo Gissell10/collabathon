@@ -1,17 +1,22 @@
 import React from "react";
 import { Icon } from "@iconify/react";
 
-const Nav = () => {
+const Nav = (props) => {
   return (
     <div>
       <div className="Nav">
         <h1>
           GIVE ME <br /> THE TEA
+          <span>
+            <Icon className="ttileIcon" icon="icon-park-outline:tea-drink" />
+          </span>
         </h1>
-        <button className="btn-suscribe">SUSCRIBE</button>
+        <button onClick={() => props.onClick(true)} className="btn-suscribe">
+          SUSCRIBE
+        </button>
         <p>My Account</p>
         <div>
-          <Icon icon="icon-park:hamburger-button" />
+          <Icon className="Burger" icon="icon-park:hamburger-button" />
         </div>
       </div>
 

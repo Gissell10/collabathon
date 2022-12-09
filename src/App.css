@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,700;6..96,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500&display=swap");
 * {
   box-sizing: border-box;
   padding: 0;
@@ -18,7 +19,12 @@ ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px;
+  padding: 30px;
+  font-size: 30px;
+}
+.Nav span {
+  font-size: 30px;
+  font-weight: 900;
 }
 .btn-suscribe {
   background-color: #ffc0ed;
@@ -26,12 +32,14 @@ ul {
   border-radius: 30px;
   border: solid #0026ad;
   color: #0026ad;
+  font-size: 30px;
 }
 .btn-secret {
   background-color: #0026ad;
   padding: 10px 15px;
   border-radius: 30px;
   border: solid #0026ad;
+  border: none;
   color: #ffc0ed;
 }
 .bar {
@@ -39,29 +47,59 @@ ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px;
+  padding: 20px;
+  font-size: 30px;
 }
 
 .Articles {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  background-color: rgba(255, 228, 247, 0.57);
+  margin-top: 10px;
 }
 .hero-title {
   background-color: rgba(255, 228, 247, 0.5);
   padding: 50px;
   border-radius: 96px;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 .Articles-button {
   background-color: #0026ad;
   color: #fff0fb;
   padding: 5px 15px;
-  border-radius: 40%;
-  font-size: 1.5rem;
-  font-weight: 600;
+  border: none;
+  border-radius: 30px;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 15px 0 20px;
+}
+.callAction {
+  background-color: #0026ad;
+  color: #fff0fb;
+  padding: 5px 15px;
+  border-radius: 30px;
+  border: none;
+  font-weight: 700;
+  margin: 30px;
+  font-size: 30px;
+}
+.callAction span {
+  padding-right: 5px;
+  font-size: 30px;
+}
+.time {
+  margin-top: 15px;
+  margin-right: 5px;
+  font-size: 30px;
 }
 .description {
-  background-color: rgba(238, 66, 169, 0.012);
+  background-color: rgba(238, 66, 169, 0.12);
+  font-family: Nunito;
+  font-weight: 400;
+  color: #404040;
+  font-size: 30px;
+  margin: 60px 0;
+  padding: 0 30px;
 }
 
 .footer {
@@ -156,3 +194,106 @@ ul {
   margin: 25px 50px 75px 50px;
 }
 
+.title {
+  background-color: rgba(255, 255, 255, 0.62);
+  margin-bottom: 120px;
+  padding-left: 30px;
+  font-weight: 700;
+  letter-spacing: 0.005em;
+  font-size: 40px;
+}
+.name {
+  background-color: rgba(255, 255, 255, 0.62);
+  margin-top: 120px;
+  font-weight: 700;
+  padding-left: 30px;
+  letter-spacing: 0.005em;
+  font-size: 40px;
+}
+.Article {
+  margin: 20px 20px 20px 10px;
+  max-width: 700px;
+}
+.ttileIcon {
+  font-size: 63px;
+}
+.Burger {
+  font-size: 77px;
+  color: #0026ad;
+}
+
+/*  ====== MEDIA QUERIES ======  */
+/*  == For small devices ==  */
+@media screen and (max-width: 400px) {
+  .Nav {
+    padding: 10px;
+    font-size: 10px;
+  }
+  .Nav span {
+    font-size: 10px;
+    font-weight: 700;
+  }
+  .btn-suscribe {
+    font-size: 10px;
+  }
+  .ttileIcon {
+    font-size: 13px;
+  }
+  .Burger {
+    font-size: 17px;
+  }
+  .bar {
+    padding: 10px;
+    font-size: 10px;
+  }
+  .hero-title {
+    padding: 20px;
+    border-radius: 96px;
+    font-size: 16px;
+  }
+  .Article {
+    max-width: 400px;
+  }
+  .Articles-button {
+    padding: 5px 5px;
+
+    font-size: 14px;
+
+    margin-left: 20px;
+  }
+  .callAction {
+    margin: 10px;
+    padding: 5px 5px;
+    font-size: 10px;
+  }
+  .callAction span {
+    font-size: 8px;
+  }
+  .time {
+    margin-top: 15px;
+    margin-right: 5px;
+    font-size: 10px;
+  }
+  .title {
+    margin-bottom: 120px;
+    padding-left: 15px;
+    letter-spacing: 0.005em;
+    font-size: 13px;
+  }
+  .name {
+    margin-top: 60px;
+    padding-left: 15px;
+    letter-spacing: 0.005em;
+    font-size: 13px;
+  }
+  .description {
+    color: #404040;
+    font-size: 10px;
+    margin: 30px 0;
+    padding: 0 15px;
+  }
+}
+
+.blur {
+  filter: blur(15.5px);
+}

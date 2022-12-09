@@ -1,17 +1,27 @@
 .container {
-  margin: 0 auto;
+  margin: auto;
   background-color: #ffc0ed;
   width: 342px;
   height: 636;
   padding: 15px;
   border-radius: 17px;
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 50px;
+}
+
+.is-visable {
+  display: none;
 }
 
 .cross-icon {
   text-align: right;
+  margin-top: 13px;
+  margin-right: 16px;
 }
 
-.center {
+.headings {
   text-align: center;
 }
 
@@ -67,4 +77,32 @@ li {
 
 .close {
   text-align: center;
+}
+
+.blue-circle {
+  width: 21px;
+  height: 21px;
+  background-color: blue;
+  border-radius: 50%;
+}
+
+.heading {
+  font-family: "Bodoni Moda";
+  font-weight: 800;
+  font-size: 22px;
+  padding: 15px;
+}
+
+.sub-heading {
+  font-family: "Nunito";
+  font-weight: 700;
+  font-size: 18px;
+  padding: 15px 0;
+}
+p span {
+}
+
+.heading-wrap {
+  text-align: center;
+  width: 290px;
 }
