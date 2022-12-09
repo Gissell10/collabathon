@@ -6,10 +6,10 @@ import Subscribe from "./Subscribe";
 import Articles from "./Articles";
 import "../App.css";
 
-const Home = () => {
+const Home = (props) => {
   return (
     <main>
-      <Nav></Nav>
+      <Nav onClick={props.onClick}></Nav>
 
       <Hero></Hero>
       <Articles></Articles>

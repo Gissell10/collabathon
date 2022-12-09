@@ -118,3 +118,7 @@ ul {
   padding-left: 10px;
   letter-spacing: 0.005em;
 }
+
+.blur {
+  filter: blur(15.5px);
+}
