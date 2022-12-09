@@ -19,15 +19,20 @@ ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px;
+  padding: 30px;
+  font-size: 30px;
+}
+.Nav span {
+  font-size: 30px;
+  font-weight: 900;
 }
 .btn-suscribe {
   background-color: #ffc0ed;
   padding: 10px 15px;
   border-radius: 30px;
   border: solid #0026ad;
-  border: none;
   color: #0026ad;
+  font-size: 30px;
 }
 .btn-secret {
   background-color: #0026ad;
@@ -42,7 +47,8 @@ ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px;
+  padding: 20px;
+  font-size: 30px;
 }
 
 .Articles {
@@ -55,7 +61,7 @@ ul {
   background-color: rgba(255, 228, 247, 0.5);
   padding: 50px;
   border-radius: 96px;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 .Articles-button {
   background-color: #0026ad;
@@ -63,7 +69,7 @@ ul {
   padding: 5px 15px;
   border: none;
   border-radius: 30px;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   font-weight: 700;
   margin: 15px 0 20px;
 }
@@ -74,16 +80,26 @@ ul {
   border-radius: 30px;
   border: none;
   font-weight: 700;
-  margin: 20px;
+  margin: 30px;
+  font-size: 30px;
 }
 .callAction span {
   padding-right: 5px;
+  font-size: 30px;
+}
+.time {
+  margin-top: 15px;
+  margin-right: 5px;
+  font-size: 30px;
 }
 .description {
   background-color: rgba(238, 66, 169, 0.12);
   font-family: Nunito;
   font-weight: 400;
   color: #404040;
+  font-size: 30px;
+  margin: 60px 0;
+  padding: 0 30px;
 }
 
 .footer {
@@ -106,15 +122,33 @@ ul {
 }
 .title {
   background-color: rgba(255, 255, 255, 0.62);
-  margin-bottom: 40px;
-  padding-left: 10px;
+  margin-bottom: 120px;
+  padding-left: 30px;
   font-weight: 700;
   letter-spacing: 0.005em;
+  font-size: 40px;
 }
 .name {
   background-color: rgba(255, 255, 255, 0.62);
-  margin-top: 30px;
+  margin-top: 120px;
   font-weight: 700;
-  padding-left: 10px;
+  padding-left: 30px;
   letter-spacing: 0.005em;
+  font-size: 40px;
+}
+.Article {
+  margin: 20px 20px 20px 10px;
+  max-width: 700px;
+}
+.ttileIcon {
+  font-size: 63px;
+}
+.Burger {
+  font-size: 77px;
+  color: #0026ad;
+}
+
+/*  ====== MEDIA QUERIES ======  */
+/*  == For small devices ==  */
+@media screen and (max-width: 390px) {
 }

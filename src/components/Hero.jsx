@@ -9,7 +9,7 @@ const Hero = () => {
         backgroundSize: "cover",
         display: "grid",
         placeItems: "center",
-        height: "400px",
+        height: "500px",
       }}
     >
       <div className="hero-title">
