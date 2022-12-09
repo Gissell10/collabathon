@@ -8,18 +8,22 @@ const Subscribe = () => {
     return (
         <div className="sub">
             <div className="subscribeword">
-                Do you want more juicy tea?<br />
+                <div>
+                    Do you want more juicy tea?<br />
+                
+                    You can subscribe for more!
+                </div>
+
+                <div className="subscribe-button">
             
-                You can subscribe for more!
+
+                    <button className="subscribe">
+                        Subscribe
+                    </button>
+
+                    
+                </div>
             </div> 
-
-            <button className="subscrib">
-                Subscrib
-            </button>
-
-            <div className="cup">
-                <Icon icon="icon-park-outline:tea-drink" />
-            </div>
 
             
 

@@ -2,23 +2,30 @@ import React from "react";
 import { Icon } from '@iconify/react';
 import "../App.css";
 
+
 const Footer = () => {
     return (
         <div className="footer">
             <div className="contact">
-                Contact us <br />
+                GIVE ME <br />
             
-                Subscribe
+                THE TEA
             </div> 
 
-            <div className="about">
-                About us
+           
 
-                <div className="cup">
-                    <Icon icon="icon-park-outline:tea-drink" />
-                </div>
+            <ul className="icon-section">
+                <li>Home<div className="icon"><Icon icon="ic:baseline-tiktok" /></div></li>
+                <li>About us<div className="icon"><Icon icon="mingcute:ins-fill" /> </div></li>
+                <li>Help & support<div className="icon"><Icon icon="typcn:rss" /></div></li>
+            </ul>
 
-            </div>
+
+
+
+           
+
+            
 
             
 
