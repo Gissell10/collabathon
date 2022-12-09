@@ -16,7 +16,7 @@ function App() {
       <div className={focusSignUp ? "blur" : ""}>
         <Home onClick={focus}></Home>
       </div>
-      <Signin></Signin>
+      <Signin onClick={focus} isVisable={focusSignUp}></Signin>
       <Dashboard></Dashboard>
     </div>
   );

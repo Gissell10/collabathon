@@ -11,6 +11,10 @@
   top: 50px;
 }
 
+.is-visable {
+  display: none;
+}
+
 .cross-icon {
   text-align: right;
   margin-top: 13px;
