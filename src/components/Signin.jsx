@@ -4,7 +4,7 @@ import "../Signup.css";
 import { db } from "../firebase-config";
 import { collection, addDoc } from "firebase/firestore";
 
-const Signin = () => {
+const Signin = (props) => {
   const regNoNumbers = /[0-9]/;
   const regLonger2 = /[a-zA-Z]{2,}/;
   const regNoSpecialChar = /[/^[A-Za-z]+$/;
@@ -94,12 +94,16 @@ const Signin = () => {
   };
 
   return (
-    <div className="container">
+    <div className={props.isVisable ? "container" : "container is-visable"}>
       {!validFirst && <p>{messageFirst}</p>}
       {!validLast && <p>{messageLast}</p>}
       {!validEmail && <p>{messageEmail}</p>}
       <div className="cross-icon">
-        <Icon icon="gridicons:cross-circle" color="#0026ad" />
+        <Icon
+          onClick={() => props.onClick(false)}
+          icon="gridicons:cross-circle"
+          color="#0026ad"
+        />
       </div>
       <div className="headings">
         <div className="heading-wrap">
@@ -111,7 +115,6 @@ const Signin = () => {
       </div>
 
       <p>
-        <div className="blue-circle"></div>
         <span>
           <Icon
             icon="icon-park-outline:tea-drink"
@@ -221,7 +224,9 @@ const Signin = () => {
       </form>
 
       <p className="close">
-        <a href="#">No Thanks</a>
+        <a onClick={() => props.onClick(false)} href="#">
+          No Thanks
+        </a>
       </p>
     </div>
   );

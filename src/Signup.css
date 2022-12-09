@@ -1,13 +1,18 @@
 .container {
-  margin: 0 auto;
+  margin: auto;
   background-color: #ffc0ed;
   width: 342px;
   height: 636;
   padding: 15px;
   border-radius: 17px;
   position: fixed;
-  top: 20%;
-  left: 7%;
+  right: 0;
+  left: 0;
+  top: 50px;
+}
+
+.is-visable {
+  display: none;
 }
 
 .cross-icon {

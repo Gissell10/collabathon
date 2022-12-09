@@ -219,3 +219,7 @@ ul {
     padding: 0 15px;
   }
 }
+
+.blur {
+  filter: blur(15.5px);
+}
