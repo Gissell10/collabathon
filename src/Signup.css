@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
 .container {
   margin: auto;
   background-color: #ffc0ed;
@@ -51,10 +52,14 @@ li {
   padding: 0;
   margin: 0 0 10px;
 }
+h3 {
+  padding: 10px 0;
+}
 
 .disclaimer {
   font-size: 0.5rem;
   text-align: center;
+  padding: 10px;
 }
 
 .link {
@@ -63,12 +68,13 @@ li {
 
 .submit {
   margin: 0 auto;
-  padding: 0;
   width: 196px;
   height: 47px;
   background-color: #0026ad;
+  border: none;
   color: white;
   border-radius: 23.5px;
+  font-family: "Abril Fatface";
 }
 
 .submit-button {
@@ -77,6 +83,7 @@ li {
 
 .close {
   text-align: center;
+  margin-top: 10px;
 }
 
 .blue-circle {
@@ -99,9 +106,23 @@ li {
   font-size: 18px;
   padding: 15px 0;
 }
-p span {
+.circle {
+  border-radius: 100%;
+  background-color: #ee42a9;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  margin-right: 10px;
+  margin-bottom: 5px;
 }
-
+.umlimited {
+  display: flex;
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.75);
+  align-items: center;
+}
 .heading-wrap {
   text-align: center;
   width: 290px;
