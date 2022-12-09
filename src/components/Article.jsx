@@ -24,10 +24,10 @@ const Article = ({
           {callAction}
         </button>
       ) : (
-        <p></p>
+        <p> </p>
       )}
 
-      <span> {time}</span>
+      <span className="time"> {time}</span>
       <h2 className="name">{name}</h2>
       <h2 className="title">{title}</h2>
       <p className="description">{description}</p>
