@@ -1,16 +1,36 @@
 import React from "react";
+import { Icon } from "@iconify/react";
+import { isLabelWithInternallyDisabledControl } from "@testing-library/user-event/dist/utils";
 
 const Article = ({
   children,
   image,
+  name,
   title,
-  description = "The crazy fox jumped over the old dog",
+  description,
+  time,
+  callAction,
 }) => {
   return (
-    <div>
-      <h2>{title}</h2>
-      <img src={image} alt="Image" height={187} width={184} />
-      <p>{description}</p>
+    <div
+      className="Article"
+      style={{ backgroundImage: `url(${image})`, backgroundSize: "cover" }}
+    >
+      {callAction !== undefined ? (
+        <button className="callAction">
+          <span>
+            <Icon icon="icon-park-outline:tea-drink" />
+          </span>
+          {callAction}
+        </button>
+      ) : (
+        <p></p>
+      )}
+
+      <span> {time}</span>
+      <h2 className="name">{name}</h2>
+      <h2 className="title">{title}</h2>
+      <p className="description">{description}</p>
     </div>
   );
 };
