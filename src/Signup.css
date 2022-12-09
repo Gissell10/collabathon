@@ -5,13 +5,18 @@
   height: 636;
   padding: 15px;
   border-radius: 17px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
 }
 
 .cross-icon {
   text-align: right;
+  margin-top: 13px;
+  margin-right: 16px;
 }
 
-.center {
+.headings {
   text-align: center;
 }
 
@@ -67,4 +72,32 @@ li {
 
 .close {
   text-align: center;
+}
+
+.blue-circle {
+  width: 21px;
+  height: 21px;
+  background-color: blue;
+  border-radius: 50%;
+}
+
+.heading {
+  font-family: "Bodoni Moda";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 22px;
+  line-height: 21px;
+}
+
+.sub-heading {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.heading-wrap {
+  text-align: center;
+  width: 290px;
 }

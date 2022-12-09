@@ -6,9 +6,3 @@
   padding: 15px;
   border-radius: 17px;
 }
-
-.single-user {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
