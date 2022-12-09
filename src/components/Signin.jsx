@@ -115,61 +115,61 @@ const Signin = (props) => {
         <h2 className="sub-heading">Get More Exclusive More Unlocked</h2>
       </div>
 
-      <p>
-        <span>
+      <div className="umlimited">
+        <div className="circle">
           <Icon
             icon="icon-park-outline:tea-drink"
             color="white"
             width="21"
             height="21"
           />
-        </span>
+        </div>
         Unlimited Access to top secret tea
-      </p>
-      <p>
-        <span>
+      </div>
+      <div className="umlimited">
+        <div className="circle">
           <Icon
             icon="icon-park-outline:tea-drink"
             color="white"
             width="21"
             height="21"
           />
-        </span>
-        Unlimited Access to top secret tea
-      </p>
-      <p>
-        <span>
+        </div>
+        Exclusive bonus content
+      </div>
+      <div className="umlimited">
+        <div className="circle">
           <Icon
             icon="icon-park-outline:tea-drink"
             color="white"
             width="21"
             height="21"
           />
-        </span>
-        Unlimited Access to top secret tea
-      </p>
-      <p>
-        <span>
+        </div>
+        Major discounts on celebrities’ brands plus free shipping
+      </div>
+      <div className="umlimited">
+        <div className="circle">
           <Icon
             icon="icon-park-outline:tea-drink"
             color="white"
             width="21"
             height="21"
           />
-        </span>
-        Unlimited Access to top secret tea
-      </p>
-      <p>
-        <span>
+        </div>
+        Early access to events, merch, and other perks
+      </div>
+      <div className="umlimited">
+        <div className="circle">
           <Icon
             icon="icon-park-outline:tea-drink"
             color="white"
             width="21"
             height="21"
           />
-        </span>
-        Unlimited Access to top secret tea
-      </p>
+        </div>
+        Major discounts on celebrities’ fashion stuff
+      </div>
       <form onSubmit={_handleSumbit}>
         <h3>Have More Tea!</h3>
         <ul>
