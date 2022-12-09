@@ -6,9 +6,8 @@
   padding: 15px;
   border-radius: 17px;
   position: fixed;
-  top: 50%;
-  left: 50%;
-  display: none;
+  top: 20%;
+  left: 7%;
 }
 
 .cross-icon {
@@ -84,18 +83,18 @@ li {
 
 .heading {
   font-family: "Bodoni Moda";
-  font-style: normal;
   font-weight: 800;
   font-size: 22px;
-  line-height: 21px;
+  padding: 15px;
 }
 
 .sub-heading {
   font-family: "Nunito";
-  font-style: normal;
   font-weight: 700;
   font-size: 18px;
-  line-height: 25px;
+  padding: 15px 0;
+}
+p span {
 }
 
 .heading-wrap {

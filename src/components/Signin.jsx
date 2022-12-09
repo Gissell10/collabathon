@@ -103,7 +103,9 @@ const Signin = () => {
       </div>
       <div className="headings">
         <div className="heading-wrap">
-          <h1 className="heading">Submit to Tea's newsletter</h1>
+          <h1 className="heading">
+            Submit to Tea's <br /> newsletter
+          </h1>
         </div>
         <h2 className="sub-heading">Get More Exclusive More Unlocked</h2>
       </div>
