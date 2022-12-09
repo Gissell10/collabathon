@@ -223,3 +223,19 @@ ul {
 .blur {
   filter: blur(15.5px);
 }
+
+.congrats-message {
+  margin: auto;
+  width: 400px;
+  height: auto;
+  padding: 15px;
+  border-radius: 17px;
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 100px;
+}
+
+.congrats-visable {
+  display: none;
+}

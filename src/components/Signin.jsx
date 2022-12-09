@@ -89,8 +89,9 @@ const Signin = (props) => {
       return;
     }
 
-    console.log(firstName, validFirst, lastName, email);
     addToMailingList();
+    props.onClick(false);
+    props.isVisableCon(true);
   };
 
   return (
